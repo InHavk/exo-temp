@@ -219,7 +219,7 @@ async def linux_device_capabilities() -> DeviceCapabilities:
       model=f"Linux Box (Device: {Device.DEFAULT})",
       chip=f"Unknown Chip (Device: {Device.DEFAULT})",
       memory=psutil.virtual_memory().total // 2**20,
-      flops=DeviceFlops(fp32=0, fp16=0, int8=0),
+      flops=DeviceFlops(fp32=1, fp16=1, int8=1),
     )
 
 
