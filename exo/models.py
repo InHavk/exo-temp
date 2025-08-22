@@ -98,7 +98,6 @@ model_cards: ModelCardCollection = {
     layers=32,
     repo={
        "MLXDynamicShardInferenceEngine": "mlx-community/Meta-Llama-3-8B-Instruct-4bit",
-       "TinygradDynamicShardInferenceEngine": "TriAiExperiments/SFR-Iterative-DPO-LLaMA-3-8B-R",
     },
   ),
   "llama-3-70b": ModelCard(
@@ -106,7 +105,6 @@ model_cards: ModelCardCollection = {
     layers=80,
     repo={
        "MLXDynamicShardInferenceEngine": "mlx-community/Meta-Llama-3-70B-Instruct-4bit",
-       "TinygradDynamicShardInferenceEngine": "TriAiExperiments/SFR-Iterative-DPO-LLaMA-3-70B-R",
     },
   ),
   "llama-3.1-405b": ModelCard(
