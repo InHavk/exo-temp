@@ -575,6 +575,13 @@ model_cards: ModelCardCollection = {
       "MLXDynamicShardInferenceEngine": "Qwen/Qwen3-30B-A3B",
     },
   ),
+  "qwen3-coder-30b-a3b": ModelCard(
+    pretty_name="Qwen3 Coder 30B (A3B)",
+    layers=48,
+    repo={
+      "TinygradDynamicShardInferenceEngine": "unsloth/Qwen3-Coder-30B-A3B-Instruct",
+     },
+  ),
   ### qwen3
   "qwen3-32b": ModelCard(
     pretty_name="Qwen3 32B",
